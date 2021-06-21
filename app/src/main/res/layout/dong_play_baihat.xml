@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textviewPlayNhacIndex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="#ffff"
+            android:textSize="17sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/textviewPlayNhacTenBaiHat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/textviewPlayNhacIndex"
+            android:ellipsize="end"
+            android:maxWidth="250dp"
+            android:singleLine="true"
+            android:textColor="#ffff"
+            android:textSize="17sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/textviewPlayNhacTenCaSi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textviewPlayNhacTenBaiHat"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/textviewPlayNhacIndex"
+            android:singleLine="true"
+            android:textColor="#ffff"
+            android:textSize="12sp">
+
+        </TextView>
+    </RelativeLayout>
+</RelativeLayout>
